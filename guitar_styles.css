@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**-----------------------
+        Tutor Section
+---------------------------**/
+
+.tutor-pics img {
+    width: 180px !important;
+    position: relative;
+    margin: auto;
+}
+
+/**-----------------------
+    Pricing Section
+---------------------------**/
+
+.nav-pills {
+    position: relative;
+    margin-bottom: 40px !important;
+}

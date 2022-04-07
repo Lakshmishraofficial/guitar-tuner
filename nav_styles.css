@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-brand span {
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #3a4750;
+}
+
+.navbar .nav-item {
+    margin-left: 15px;
+}
+
+.nav-hover:hover {
+    color: #1089ff !important;
+}
+
+/* Responsive Code */
+
+@media only screen and (min-width: 1200px) {
+    .navbar-brand {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-item .nav-link {
+        text-align: center;
+    }
+    .navbar-brand span {
+        font-size: 20px;
+    }
+}
